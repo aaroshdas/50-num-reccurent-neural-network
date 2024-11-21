@@ -97,8 +97,8 @@ w1s,w1L, b1 = create_rand_values([1,6,1])
 print(test_func(tests,w1L,w1s, b1, np.tanh))
 
 
-w1s,w1L, b1= back_propagation(inputs, w1L, w1s, b1, np.tanh, 0.01, 2)
-print("2 back prop done")
+w1s,w1L, b1= back_propagation(inputs, w1L, w1s, b1, np.tanh, 0.01, 1)
+print("1 back prop done")
 
 
 w1s,w1L, b1= back_propagation(inputs, w1L, w1s, b1, np.tanh, 0.01, 5)
